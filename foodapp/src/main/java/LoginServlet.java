@@ -48,9 +48,13 @@ public class LoginServlet extends HttpServlet {
 					(conn.getInputStream())));
 
 			String output;
-
+//            int userID=Integer.parseInt(userid);
 			output = br.readLine();
-
+//			if((output.equals(op)) && (userID==10)) {
+//				response.setContentType("application/json");
+//			out.write("2");
+//
+//			}
 		
 			if(output.equals(op)) {
 				response.setContentType("application/json");

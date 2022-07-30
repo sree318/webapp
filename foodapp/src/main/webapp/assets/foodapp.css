@@ -83,12 +83,25 @@ form .text-field {
     background: #1b7dbe;
     transition: .5s;
 }
-
+#content1::after{
+    content: "\a";
+    white-space: pre;
+}
+.center1 {
+    border: 5px solid #1b7dbe;
+    text-align: center;
+    }
+#bottom {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
 .text-field input:focus~label,
 .text-field input:valid~label {
     top: -5px;
     color: #2691d9;
 }
+
 
 .text-field input:focus~span::before,
 .text-field input:valid~span::before {
@@ -107,14 +120,40 @@ input[type="submit"] {
     cursor: pointer;
     outline: none;
 }
+.styled {
+    width: 10%;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #2691d9;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
 
-input[type="submit"]:hover {
+.styled:hover {
+    background-color: #2691d9;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+input[type="submit1"]:hover {
     border-color: #2691d9;
     transition: .5s;
 }
 
 #result {
-    color: rgb(248, 20, 20);
+    color: #2691d9;
 }
 
 .signup_link {

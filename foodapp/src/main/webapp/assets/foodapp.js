@@ -73,13 +73,13 @@
 
   const __COLOCATED_TEMPLATE__ = (0, _templateFactory.createTemplateFactory)(
   /*
-    <a><input {{action "addCart" @name}} href="#" type="submit" value="Addto Cart"></a>
-      
+    <input class="favorite styled" {{action "addCart" @name}} type="submit1" value="Addto Cart">
+  
     
   */
   {
-    "id": "XICWXJHi",
-    "block": "[[[10,3],[12],[11,\"input\"],[24,6,\"#\"],[24,2,\"Addto Cart\"],[24,4,\"submit\"],[4,[38,0],[[30,0],\"addCart\",[30,1]],null],[12],[13],[13],[1,\"\\n    \\n  \"]],[\"@name\"],false,[\"action\"]]",
+    "id": "S7ro4ioo",
+    "block": "[[[11,\"input\"],[24,0,\"favorite styled\"],[24,2,\"Addto Cart\"],[24,4,\"submit1\"],[4,[38,0],[[30,0],\"addCart\",[30,1]],null],[12],[13],[1,\"\\n\\n  \"]],[\"@name\"],false,[\"action\"]]",
     "moduleName": "foodapp/components/addcart.hbs",
     "isStrictMode": false
   });
@@ -137,7 +137,8 @@
 
   const __COLOCATED_TEMPLATE__ = (0, _templateFactory.createTemplateFactory)(
   /*
-    <form>
+    <div class="center1">
+  <form style="text-align: center">
           <div class="text-field">
           <Input type="text" id="res_id" required />
           <span></span>
@@ -156,13 +157,14 @@
       </div>
   
       <div id="result"></div>
-      <input {{action "addFood"}} type="submit" value="Add">
+      <input class="favorite styled" {{action "addFood"}} type="submit1" value="Add">
   
   </form>
+  </div>
   */
   {
-    "id": "tRtZIxLC",
-    "block": "[[[10,\"form\"],[12],[1,\"\\n        \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"res_id\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant id:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"foodname\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Foodname:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"foodprice\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Foodprice:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,1,\"result\"],[12],[13],[1,\"\\n    \"],[11,\"input\"],[24,2,\"Add\"],[24,4,\"submit\"],[4,[38,1],[[30,0],\"addFood\"],null],[12],[13],[1,\"\\n\\n\"],[13]],[],false,[\"input\",\"action\"]]",
+    "id": "RZNsOPHK",
+    "block": "[[[10,0],[14,0,\"center1\"],[12],[1,\"\\n\"],[10,\"form\"],[14,5,\"text-align: center\"],[12],[1,\"\\n        \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"res_id\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant id:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"foodname\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Foodname:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"foodprice\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Foodprice:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,1,\"result\"],[12],[13],[1,\"\\n    \"],[11,\"input\"],[24,0,\"favorite styled\"],[24,2,\"Add\"],[24,4,\"submit1\"],[4,[38,1],[[30,0],\"addFood\"],null],[12],[13],[1,\"\\n\\n\"],[13],[1,\"\\n\"],[13]],[],false,[\"input\",\"action\"]]",
     "moduleName": "foodapp/components/addf.hbs",
     "isStrictMode": false
   });
@@ -274,7 +276,8 @@
 
   const __COLOCATED_TEMPLATE__ = (0, _templateFactory.createTemplateFactory)(
   /*
-    <form>
+    <div class="center1">
+  <form style="text-align: center">
           <div class="text-field">
           <Input type="text" id="id" required />
           <span></span>
@@ -292,13 +295,13 @@
       </div>
   
       <div id="result"></div>
-      <input {{action "addRes"}} type="submit" value="Add">
-  
+     <input class="favorite styled" {{action "addRes"}} type="submit1" value="Add">
   </form>
+  </div>
   */
   {
-    "id": "Mamu8hpl",
-    "block": "[[[10,\"form\"],[12],[1,\"\\n        \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"id\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant id:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"res_name\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant Name:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"type\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant Type:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,1,\"result\"],[12],[13],[1,\"\\n    \"],[11,\"input\"],[24,2,\"Add\"],[24,4,\"submit\"],[4,[38,1],[[30,0],\"addRes\"],null],[12],[13],[1,\"\\n\\n\"],[13]],[],false,[\"input\",\"action\"]]",
+    "id": "7JKnXcSH",
+    "block": "[[[10,0],[14,0,\"center1\"],[12],[1,\"\\n\"],[10,\"form\"],[14,5,\"text-align: center\"],[12],[1,\"\\n        \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"id\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant id:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"res_name\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant Name:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"type\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant Type:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,1,\"result\"],[12],[13],[1,\"\\n   \"],[11,\"input\"],[24,0,\"favorite styled\"],[24,2,\"Add\"],[24,4,\"submit1\"],[4,[38,1],[[30,0],\"addRes\"],null],[12],[13],[1,\"\\n\"],[13],[1,\"\\n\"],[13]],[],false,[\"input\",\"action\"]]",
     "moduleName": "foodapp/components/addr.hbs",
     "isStrictMode": false
   });
@@ -471,7 +474,10 @@
           var result = JSON.parse(data);
           console.log(result);
 
-          if (result == 1) {
+          if (result == 1 && userid == 10) {
+            console.log('hii');
+            dummy.router.transitionTo('adm-welcome');
+          } else if (result == 1) {
             dummy.router.transitionTo('welcome');
           } else {
             $('#result').html('Invalid username or password');
@@ -519,11 +525,12 @@
 
   const __COLOCATED_TEMPLATE__ = (0, _templateFactory.createTemplateFactory)(
   /*
-     <input {{action "buttonC"}} type="submit" value="Confirm Order">
+    <input class="favorite styled" {{action "buttonC"}} type="submit1" value="Confirm Order">
+  
   */
   {
-    "id": "ZTvEAp8l",
-    "block": "[[[1,\" \"],[11,\"input\"],[24,2,\"Confirm Order\"],[24,4,\"submit\"],[4,[38,0],[[30,0],\"buttonC\"],null],[12],[13]],[],false,[\"action\"]]",
+    "id": "eBhs1ghQ",
+    "block": "[[[11,\"input\"],[24,0,\"favorite styled\"],[24,2,\"Confirm Order\"],[24,4,\"submit1\"],[4,[38,0],[[30,0],\"buttonC\"],null],[12],[13],[1,\"\\n\"]],[],false,[\"action\"]]",
     "moduleName": "foodapp/components/confirm.hbs",
     "isStrictMode": false
   });
@@ -548,7 +555,7 @@
           console.log(result);
 
           if (result == 1) {
-            dummy.router.transitionTo('logout');
+            dummy.router.transitionTo('welcome');
             alert('order placed successfully');
           } else {
             $('#result').html('Invalid action');
@@ -591,7 +598,8 @@
 
   const __COLOCATED_TEMPLATE__ = (0, _templateFactory.createTemplateFactory)(
   /*
-    <form>
+    <div class="center1">
+  <form style="text-align: center">
           <div class="text-field">
           <Input type="text" id="foodid" required />
           <span></span>
@@ -609,13 +617,14 @@
       </div>
   
       <div id="result"></div>
-      <input {{action "deleteFood"}} type="submit" value="Delete">
   
+     <input class="favorite styled" {{action "deleteFood"}} type="submit1" value="Delete">
   </form>
+  </div>
   */
   {
-    "id": "uTH/MZcy",
-    "block": "[[[10,\"form\"],[12],[1,\"\\n        \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"foodid\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Foodid:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"foodname\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Foodname:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"foodprice\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Foodprice:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,1,\"result\"],[12],[13],[1,\"\\n    \"],[11,\"input\"],[24,2,\"Delete\"],[24,4,\"submit\"],[4,[38,1],[[30,0],\"deleteFood\"],null],[12],[13],[1,\"\\n\\n\"],[13]],[],false,[\"input\",\"action\"]]",
+    "id": "8v7IGBm7",
+    "block": "[[[10,0],[14,0,\"center1\"],[12],[1,\"\\n\"],[10,\"form\"],[14,5,\"text-align: center\"],[12],[1,\"\\n        \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"foodid\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Foodid:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"foodname\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Foodname:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"foodprice\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Foodprice:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,1,\"result\"],[12],[13],[1,\"\\n\\n   \"],[11,\"input\"],[24,0,\"favorite styled\"],[24,2,\"Delete\"],[24,4,\"submit1\"],[4,[38,1],[[30,0],\"deleteFood\"],null],[12],[13],[1,\"\\n\"],[13],[1,\"\\n\"],[13]],[],false,[\"input\",\"action\"]]",
     "moduleName": "foodapp/components/deletef.hbs",
     "isStrictMode": false
   });
@@ -727,7 +736,8 @@
 
   const __COLOCATED_TEMPLATE__ = (0, _templateFactory.createTemplateFactory)(
   /*
-    <form>
+    
+  <form style="text-align: center">
           <div class="text-field">
           <Input type="text" id="id" required />
           <span></span>
@@ -745,13 +755,13 @@
       </div>
   
       <div id="result"></div>
-      <input {{action "deleteRes"}} type="submit" value="Delete">
   
+     <input class="favorite styled" {{action "deleteRes"}} type="submit1" value="Delete">
   </form>
   */
   {
-    "id": "RNH3lauP",
-    "block": "[[[10,\"form\"],[12],[1,\"\\n        \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"id\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant id:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"res_name\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant Name:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"type\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant Type:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,1,\"result\"],[12],[13],[1,\"\\n    \"],[11,\"input\"],[24,2,\"Delete\"],[24,4,\"submit\"],[4,[38,1],[[30,0],\"deleteRes\"],null],[12],[13],[1,\"\\n\\n\"],[13]],[],false,[\"input\",\"action\"]]",
+    "id": "fHWKkpca",
+    "block": "[[[1,\"\\n\"],[10,\"form\"],[14,5,\"text-align: center\"],[12],[1,\"\\n        \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"id\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant id:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n            \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"res_name\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant Name:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"type\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Restaurant Type:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,1,\"result\"],[12],[13],[1,\"\\n\\n   \"],[11,\"input\"],[24,0,\"favorite styled\"],[24,2,\"Delete\"],[24,4,\"submit1\"],[4,[38,1],[[30,0],\"deleteRes\"],null],[12],[13],[1,\"\\n\"],[13]],[],false,[\"input\",\"action\"]]",
     "moduleName": "foodapp/components/deleter.hbs",
     "isStrictMode": false
   });
@@ -916,7 +926,8 @@
 
   const __COLOCATED_TEMPLATE__ = (0, _templateFactory.createTemplateFactory)(
   /*
-    <form>
+    <div class="center1">
+  <form style="text-align: center" >
   
       <div class="text-field">
           <Input type="text" id="username" required />
@@ -930,13 +941,14 @@
       </div>
   
       <div id="result"></div>
-      <input {{action "signupClick"}} type="submit" value="Signup">
+      <input class="favorite styled" {{action "signupClick"}} type="submit1" value="Signup">
   
   </form>
+  </div>
   */
   {
-    "id": "/sXsAR/0",
-    "block": "[[[10,\"form\"],[12],[1,\"\\n\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"username\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"username:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"password\"],[24,\"required\",\"\"],[24,4,\"password\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Password:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,1,\"result\"],[12],[13],[1,\"\\n    \"],[11,\"input\"],[24,2,\"Signup\"],[24,4,\"submit\"],[4,[38,1],[[30,0],\"signupClick\"],null],[12],[13],[1,\"\\n\\n\"],[13]],[],false,[\"input\",\"action\"]]",
+    "id": "/VY0bNNf",
+    "block": "[[[10,0],[14,0,\"center1\"],[12],[1,\"\\n\"],[10,\"form\"],[14,5,\"text-align: center\"],[12],[1,\"\\n\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"username\"],[24,\"required\",\"\"],[24,4,\"text\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"username:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n    \"],[10,0],[14,0,\"text-field\"],[12],[1,\"\\n        \"],[8,[39,0],[[24,1,\"password\"],[24,\"required\",\"\"],[24,4,\"password\"]],null,null],[1,\"\\n        \"],[10,1],[12],[13],[1,\"\\n        \"],[10,\"label\"],[12],[1,\"Password:\"],[13],[1,\"\\n    \"],[13],[1,\"\\n\\n    \"],[10,0],[14,1,\"result\"],[12],[13],[1,\"\\n    \"],[11,\"input\"],[24,0,\"favorite styled\"],[24,2,\"Signup\"],[24,4,\"submit1\"],[4,[38,1],[[30,0],\"signupClick\"],null],[12],[13],[1,\"\\n\\n\"],[13],[1,\"\\n\"],[13]],[],false,[\"input\",\"action\"]]",
     "moduleName": "foodapp/components/sign.hbs",
     "isStrictMode": false
   });
@@ -1351,17 +1363,23 @@
     });
     this.route('orderlist');
     this.route('logout');
-    this.route('adm-welcome');
-    this.route('adm-foodlist');
+    this.route('adm-welcome', {
+      path: '/homes'
+    });
+    this.route('adm-foodlist', {
+      path: '/chats/:chats_id'
+    });
     this.route('foodadd');
     this.route('foodupdate');
     this.route('fooddelete');
     this.route('resadd');
     this.route('resdelete');
     this.route('signup');
+    this.route('total');
+    this.route('adfoodlist');
   });
 });
-;define("foodapp/routes/adm-foodlist", ["exports", "@ember/routing/route"], function (_exports, _route) {
+;define("foodapp/routes/adfoodlist", ["exports", "@ember/routing/route", "@ember/service"], function (_exports, _route, _service) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1371,7 +1389,7 @@
 
   var _class, _descriptor;
 
-  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route"eaimeta@70e063a35619d71f
+  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route",0,"@ember/service"eaimeta@70e063a35619d71f
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -1381,7 +1399,7 @@
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
 
-  let AdmFoodlistRoute = (_class = class AdmFoodlistRoute extends _route.default {
+  let AdFoodlistRoute = (_class = class AdFoodlistRoute extends _route.default {
     constructor() {
       super(...arguments);
 
@@ -1408,15 +1426,15 @@
       });
     }
 
-  }, (_descriptor = _applyDecoratedDescriptor(_class.prototype, "router", [service], {
+  }, (_descriptor = _applyDecoratedDescriptor(_class.prototype, "router", [_service.inject], {
     configurable: true,
     enumerable: true,
     writable: true,
     initializer: null
   })), _class);
-  _exports.default = AdmFoodlistRoute;
+  _exports.default = AdFoodlistRoute;
 });
-;define("foodapp/routes/adm-welcome", ["exports", "@ember/routing/route"], function (_exports, _route) {
+;define("foodapp/routes/adm-foodlist", ["exports", "@ember/routing/route", "@ember/service"], function (_exports, _route, _service) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -1426,7 +1444,62 @@
 
   var _class, _descriptor;
 
-  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route"eaimeta@70e063a35619d71f
+  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route",0,"@ember/service"eaimeta@70e063a35619d71f
+
+  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
+
+  function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
+
+  let AdmFoodlistRoute = (_class = class AdmFoodlistRoute extends _route.default {
+    constructor() {
+      super(...arguments);
+
+      _initializerDefineProperty(this, "router", _descriptor, this);
+    }
+
+    model(params) {
+      var dummy = this;
+      const {
+        chats_id
+      } = params;
+      localStorage.setItem('chat_id', chats_id);
+      return fetch('/foodapp/FoodlistServlet/' + chats_id).then(function (response) {
+        const isJson = response.headers.get('content-type').includes('application/json');
+        const data = isJson ? response.json() : null;
+
+        if (data == null) {
+          console.log('no data');
+        }
+
+        return data;
+      }).then(function (json) {
+        return json;
+      });
+    }
+
+  }, (_descriptor = _applyDecoratedDescriptor(_class.prototype, "router", [_service.inject], {
+    configurable: true,
+    enumerable: true,
+    writable: true,
+    initializer: null
+  })), _class);
+  _exports.default = AdmFoodlistRoute;
+});
+;define("foodapp/routes/adm-welcome", ["exports", "@ember/routing/route", "@ember/service"], function (_exports, _route, _service) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+
+  var _class, _descriptor;
+
+  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route",0,"@ember/service"eaimeta@70e063a35619d71f
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -1459,7 +1532,7 @@
       });
     }
 
-  }, (_descriptor = _applyDecoratedDescriptor(_class.prototype, "router", [service], {
+  }, (_descriptor = _applyDecoratedDescriptor(_class.prototype, "router", [_service.inject], {
     configurable: true,
     enumerable: true,
     writable: true,
@@ -1708,6 +1781,19 @@
 
   _exports.default = SignupRoute;
 });
+;define("foodapp/routes/total", ["exports", "@ember/routing/route"], function (_exports, _route) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route"eaimeta@70e063a35619d71f
+
+  class TotalRoute extends _route.default {}
+
+  _exports.default = TotalRoute;
+});
 ;define("foodapp/routes/welcome", ["exports", "@ember/routing/route", "@ember/service"], function (_exports, _route, _service) {
   "use strict";
 
@@ -1857,6 +1943,51 @@
   });
   0; //eaimeta@70e063a35619d71f0,"ember-data/store"eaimeta@70e063a35619d71f
 });
+;define("foodapp/templates/adfoodlist", ["exports", "@ember/template-factory"], function (_exports, _templateFactory) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"ember-cli-htmlbars"eaimeta@70e063a35619d71f
+
+  var _default = (0, _templateFactory.createTemplateFactory)(
+  /*
+    <div class="box">
+    <h3>
+      FOODS
+    </h3>
+  <div class="center1" style="text-align: center">
+  
+      {{#each @model as |food|}}
+   
+      Name :{{food.name}}
+      Price :{{food.price}}
+      <span id="content1"><Addcart @name={{food.id}}/>  </span>
+      {{/each}}
+  </div>
+  <div id="bottom">
+   <LinkTo @route="foodadd">ADD FOODS
+                  </LinkTo>
+  
+      <LinkTo @route="fooddelete">DELETE FOODS
+                  </LinkTo>
+     <LinkTo @route="logout">LOGOUT
+                  </LinkTo>
+  
+  </div>
+  </div>
+  */
+  {
+    "id": "oRrT0oRC",
+    "block": "[[[10,0],[14,0,\"box\"],[12],[1,\"\\n  \"],[10,\"h3\"],[12],[1,\"\\n    FOODS\\n  \"],[13],[1,\"\\n\"],[10,0],[14,0,\"center1\"],[14,5,\"text-align: center\"],[12],[1,\"\\n\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\" \\n    Name :\"],[1,[30,2,[\"name\"]]],[1,\"\\n    Price :\"],[1,[30,2,[\"price\"]]],[1,\"\\n    \"],[10,1],[14,1,\"content1\"],[12],[8,[39,2],null,[[\"@name\"],[[30,2,[\"id\"]]]],null],[1,\"  \"],[13],[1,\"\\n\"]],[2]],null],[13],[1,\"\\n\"],[10,0],[14,1,\"bottom\"],[12],[1,\"\\n \"],[8,[39,3],null,[[\"@route\"],[\"foodadd\"]],[[\"default\"],[[[[1,\"ADD FOODS\\n                \"]],[]]]]],[1,\"\\n\\n    \"],[8,[39,3],null,[[\"@route\"],[\"fooddelete\"]],[[\"default\"],[[[[1,\"DELETE FOODS\\n                \"]],[]]]]],[1,\"\\n   \"],[8,[39,3],null,[[\"@route\"],[\"logout\"]],[[\"default\"],[[[[1,\"LOGOUT\\n                \"]],[]]]]],[1,\"\\n\\n\"],[13],[1,\"\\n\"],[13]],[\"@model\",\"food\"],false,[\"each\",\"-track-array\",\"addcart\",\"link-to\"]]",
+    "moduleName": "foodapp/templates/adfoodlist.hbs",
+    "isStrictMode": false
+  });
+
+  _exports.default = _default;
+});
 ;define("foodapp/templates/adm-foodlist", ["exports", "@ember/template-factory"], function (_exports, _templateFactory) {
   "use strict";
 
@@ -1870,34 +2001,31 @@
   /*
     <div class="box">
     <h3>
-      Foods
+      FOODS
     </h3>
-    <ul class="people">
+  <div class="center1" style="text-align: center">
       {{#each @model as |food|}}
-      <li class="person">
-        <span class="title">RESTAURANT ID:{{food.res_id}}</span>
-         <span class="title">FOOD ID:{{food.id}}</span>
-          <span class="title">FOOD NAME:{{food.name}}</span>
-               <span class="title">FOOD PRICE:{{food.price}}</span>
-         
-      </li>
+      Name :{{food.name}}
+      Price :{{food.price}}
+       <span id="content1"></span>
       {{/each}}
+  </div>
+  <div id="bottom">
   
-    </ul>
    <LinkTo @route="foodadd">ADD FOODS
-                  </LinkTo>
+                  </LinkTo>&nbsp;&nbsp;
   
       <LinkTo @route="fooddelete">DELETE FOODS
-                  </LinkTo>
+                  </LinkTo>&nbsp;&nbsp;
      <LinkTo @route="logout">LOGOUT
                   </LinkTo>
   
-  
+  </div>
   </div>
   */
   {
-    "id": "X/Vhs9yO",
-    "block": "[[[10,0],[14,0,\"box\"],[12],[1,\"\\n  \"],[10,\"h3\"],[12],[1,\"\\n    Foods\\n  \"],[13],[1,\"\\n  \"],[10,\"ul\"],[14,0,\"people\"],[12],[1,\"\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\"    \"],[10,\"li\"],[14,0,\"person\"],[12],[1,\"\\n      \"],[10,1],[14,0,\"title\"],[12],[1,\"RESTAURANT ID:\"],[1,[30,2,[\"res_id\"]]],[13],[1,\"\\n       \"],[10,1],[14,0,\"title\"],[12],[1,\"FOOD ID:\"],[1,[30,2,[\"id\"]]],[13],[1,\"\\n        \"],[10,1],[14,0,\"title\"],[12],[1,\"FOOD NAME:\"],[1,[30,2,[\"name\"]]],[13],[1,\"\\n             \"],[10,1],[14,0,\"title\"],[12],[1,\"FOOD PRICE:\"],[1,[30,2,[\"price\"]]],[13],[1,\"\\n       \\n    \"],[13],[1,\"\\n\"]],[2]],null],[1,\"\\n  \"],[13],[1,\"\\n \"],[8,[39,2],null,[[\"@route\"],[\"foodadd\"]],[[\"default\"],[[[[1,\"ADD FOODS\\n                \"]],[]]]]],[1,\"\\n\\n    \"],[8,[39,2],null,[[\"@route\"],[\"fooddelete\"]],[[\"default\"],[[[[1,\"DELETE FOODS\\n                \"]],[]]]]],[1,\"\\n   \"],[8,[39,2],null,[[\"@route\"],[\"logout\"]],[[\"default\"],[[[[1,\"LOGOUT\\n                \"]],[]]]]],[1,\"\\n\\n\\n\"],[13]],[\"@model\",\"food\"],false,[\"each\",\"-track-array\",\"link-to\"]]",
+    "id": "XLoT4Ilm",
+    "block": "[[[10,0],[14,0,\"box\"],[12],[1,\"\\n  \"],[10,\"h3\"],[12],[1,\"\\n    FOODS\\n  \"],[13],[1,\"\\n\"],[10,0],[14,0,\"center1\"],[14,5,\"text-align: center\"],[12],[1,\"\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\"    Name :\"],[1,[30,2,[\"name\"]]],[1,\"\\n    Price :\"],[1,[30,2,[\"price\"]]],[1,\"\\n     \"],[10,1],[14,1,\"content1\"],[12],[13],[1,\"\\n\"]],[2]],null],[13],[1,\"\\n\"],[10,0],[14,1,\"bottom\"],[12],[1,\"\\n\\n \"],[8,[39,2],null,[[\"@route\"],[\"foodadd\"]],[[\"default\"],[[[[1,\"ADD FOODS\\n                \"]],[]]]]],[1,\"  \\n\\n    \"],[8,[39,2],null,[[\"@route\"],[\"fooddelete\"]],[[\"default\"],[[[[1,\"DELETE FOODS\\n                \"]],[]]]]],[1,\"  \\n   \"],[8,[39,2],null,[[\"@route\"],[\"logout\"]],[[\"default\"],[[[[1,\"LOGOUT\\n                \"]],[]]]]],[1,\"\\n\\n\"],[13],[1,\"\\n\"],[13]],[\"@model\",\"food\"],false,[\"each\",\"-track-array\",\"link-to\"]]",
     "moduleName": "foodapp/templates/adm-foodlist.hbs",
     "isStrictMode": false
   });
@@ -1917,32 +2045,32 @@
   /*
     <div class="box">
     <h3>
-      Restaurants
+      RESTAURANTS
     </h3>
-    <ul class="people">
-      {{#each @model as |food|}}
-      <li class="person">
-    
-        <span class="title">RESTAURANT NAME :{{food.res_name}}</span>
-       <span class="title">TYPE :{{food.type}}</span>
-        <LinkTo @route="foodlist"@model={{food.id}}>VIEW FOODS
+  <div class="center1" style="text-align: center">
+      {{#each @model as |res|}}      
+       Name :{{res.res_name}}
+        Type:{{res.type}}
+        <LinkTo @route="adm-foodlist"@model={{res.id}}>VIEW FOODS
                   </LinkTo>
-      </li>
+        <span id="content1"></span>
       {{/each}}
-    </ul>
-     <LinkTo @route="resadd">ADD RESTAURANT
-                  </LinkTo>
+  </div>
+  <div id="bottom">
+     <LinkTo @route="resadd">ADD RESTAURANT   
+                  </LinkTo>&nbsp;&nbsp;
   
-      <LinkTo @route="resdelete">DELETE RESTAURANT
-                  </LinkTo>
+      <LinkTo @route="resdelete">   DELETE RESTAURANT
+                  </LinkTo>&nbsp;&nbsp;
   
-       <LinkTo @route="logout">LOG OUT
+       <LinkTo @route="logout">    LOG OUT
                   </LinkTo>
+  </div>
   </div>
   */
   {
-    "id": "tfGuSkSG",
-    "block": "[[[10,0],[14,0,\"box\"],[12],[1,\"\\n  \"],[10,\"h3\"],[12],[1,\"\\n    Restaurants\\n  \"],[13],[1,\"\\n  \"],[10,\"ul\"],[14,0,\"people\"],[12],[1,\"\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\"    \"],[10,\"li\"],[14,0,\"person\"],[12],[1,\"\\n  \\n      \"],[10,1],[14,0,\"title\"],[12],[1,\"RESTAURANT NAME :\"],[1,[30,2,[\"res_name\"]]],[13],[1,\"\\n     \"],[10,1],[14,0,\"title\"],[12],[1,\"TYPE :\"],[1,[30,2,[\"type\"]]],[13],[1,\"\\n      \"],[8,[39,2],null,[[\"@route\",\"@model\"],[\"foodlist\",[30,2,[\"id\"]]]],[[\"default\"],[[[[1,\"VIEW FOODS\\n                \"]],[]]]]],[1,\"\\n    \"],[13],[1,\"\\n\"]],[2]],null],[1,\"  \"],[13],[1,\"\\n   \"],[8,[39,2],null,[[\"@route\"],[\"resadd\"]],[[\"default\"],[[[[1,\"ADD RESTAURANT\\n                \"]],[]]]]],[1,\"\\n\\n    \"],[8,[39,2],null,[[\"@route\"],[\"resdelete\"]],[[\"default\"],[[[[1,\"DELETE RESTAURANT\\n                \"]],[]]]]],[1,\"\\n\\n     \"],[8,[39,2],null,[[\"@route\"],[\"logout\"]],[[\"default\"],[[[[1,\"LOG OUT\\n                \"]],[]]]]],[1,\"\\n\"],[13]],[\"@model\",\"food\"],false,[\"each\",\"-track-array\",\"link-to\"]]",
+    "id": "lDow9wix",
+    "block": "[[[10,0],[14,0,\"box\"],[12],[1,\"\\n  \"],[10,\"h3\"],[12],[1,\"\\n    RESTAURANTS\\n  \"],[13],[1,\"\\n\"],[10,0],[14,0,\"center1\"],[14,5,\"text-align: center\"],[12],[1,\"\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\"     Name :\"],[1,[30,2,[\"res_name\"]]],[1,\"\\n      Type:\"],[1,[30,2,[\"type\"]]],[1,\"\\n      \"],[8,[39,2],null,[[\"@route\",\"@model\"],[\"adm-foodlist\",[30,2,[\"id\"]]]],[[\"default\"],[[[[1,\"VIEW FOODS\\n                \"]],[]]]]],[1,\"\\n      \"],[10,1],[14,1,\"content1\"],[12],[13],[1,\"\\n\"]],[2]],null],[13],[1,\"\\n\"],[10,0],[14,1,\"bottom\"],[12],[1,\"\\n   \"],[8,[39,2],null,[[\"@route\"],[\"resadd\"]],[[\"default\"],[[[[1,\"ADD RESTAURANT   \\n                \"]],[]]]]],[1,\"  \\n\\n    \"],[8,[39,2],null,[[\"@route\"],[\"resdelete\"]],[[\"default\"],[[[[1,\"   DELETE RESTAURANT\\n                \"]],[]]]]],[1,\"  \\n\\n     \"],[8,[39,2],null,[[\"@route\"],[\"logout\"]],[[\"default\"],[[[[1,\"    LOG OUT\\n                \"]],[]]]]],[1,\"\\n\"],[13],[1,\"\\n\"],[13]],[\"@model\",\"res\"],false,[\"each\",\"-track-array\",\"link-to\"]]",
     "moduleName": "foodapp/templates/adm-welcome.hbs",
     "isStrictMode": false
   });
@@ -1960,25 +2088,25 @@
 
   var _default = (0, _templateFactory.createTemplateFactory)(
   /*
-    <div class="center">
-    <h3>
+    <div class="center1">
+  <div class="box">
+    <h2>
       ORDER LIST
-    </h3>
-    <ul class="people">
+    </h2>
+  
       {{#each @model as |food|}}
-      <li class="person">
-        <span class="title">ID :{{food.id}}</span>
-        <span class="title">NAME :{{food.name}}</span>
-        <span class="title">PRICE :{{food.price}}</span>  
-      </li>
+  
+    Name :{{food.name}}
+    Price :{{food.price}}
+  <span id="content1"></span>
       {{/each}}
-  <Confirm></Confirm>  
-    </ul>
+  <Confirm></Confirm>   
+  </div>
   </div>
   */
   {
-    "id": "1RNOLjh1",
-    "block": "[[[10,0],[14,0,\"center\"],[12],[1,\"\\n  \"],[10,\"h3\"],[12],[1,\"\\n    ORDER LIST\\n  \"],[13],[1,\"\\n  \"],[10,\"ul\"],[14,0,\"people\"],[12],[1,\"\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\"    \"],[10,\"li\"],[14,0,\"person\"],[12],[1,\"\\n      \"],[10,1],[14,0,\"title\"],[12],[1,\"ID :\"],[1,[30,2,[\"id\"]]],[13],[1,\"\\n      \"],[10,1],[14,0,\"title\"],[12],[1,\"NAME :\"],[1,[30,2,[\"name\"]]],[13],[1,\"\\n      \"],[10,1],[14,0,\"title\"],[12],[1,\"PRICE :\"],[1,[30,2,[\"price\"]]],[13],[1,\"  \\n    \"],[13],[1,\"\\n\"]],[2]],null],[8,[39,2],null,null,[[\"default\"],[[[],[]]]]],[1,\"  \\n  \"],[13],[1,\"\\n\"],[13]],[\"@model\",\"food\"],false,[\"each\",\"-track-array\",\"confirm\"]]",
+    "id": "ewq/EuXD",
+    "block": "[[[10,0],[14,0,\"center1\"],[12],[1,\"\\n\"],[10,0],[14,0,\"box\"],[12],[1,\"\\n  \"],[10,\"h2\"],[12],[1,\"\\n    ORDER LIST\\n  \"],[13],[1,\"\\n\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\"\\n  Name :\"],[1,[30,2,[\"name\"]]],[1,\"\\n  Price :\"],[1,[30,2,[\"price\"]]],[1,\"\\n\"],[10,1],[14,1,\"content1\"],[12],[13],[1,\"\\n\"]],[2]],null],[8,[39,2],null,null,[[\"default\"],[[[],[]]]]],[1,\"   \\n\"],[13],[1,\"\\n\"],[13]],[\"@model\",\"food\"],false,[\"each\",\"-track-array\",\"confirm\"]]",
     "moduleName": "foodapp/templates/cartlist.hbs",
     "isStrictMode": false
   });
@@ -1996,13 +2124,13 @@
 
   var _default = (0, _templateFactory.createTemplateFactory)(
   /*
-    <div class="center">
+    <div class="center1">
   <Addf></Addf>
   </div>
   */
   {
-    "id": "YECcfdOl",
-    "block": "[[[10,0],[14,0,\"center\"],[12],[1,\"\\n\"],[8,[39,0],null,null,[[\"default\"],[[[],[]]]]],[1,\"\\n\"],[13]],[],false,[\"addf\"]]",
+    "id": "63amn3Um",
+    "block": "[[[10,0],[14,0,\"center1\"],[12],[1,\"\\n\"],[8,[39,0],null,null,[[\"default\"],[[[],[]]]]],[1,\"\\n\"],[13]],[],false,[\"addf\"]]",
     "moduleName": "foodapp/templates/foodadd.hbs",
     "isStrictMode": false
   });
@@ -2020,13 +2148,13 @@
 
   var _default = (0, _templateFactory.createTemplateFactory)(
   /*
-    <div class="center">
+    <div class="center1">
   <Deletef></Deletef>
   </div>
   */
   {
-    "id": "axJy8wvW",
-    "block": "[[[10,0],[14,0,\"center\"],[12],[1,\"\\n\"],[8,[39,0],null,null,[[\"default\"],[[[],[]]]]],[1,\"\\n\"],[13]],[],false,[\"deletef\"]]",
+    "id": "dDHj4KZ8",
+    "block": "[[[10,0],[14,0,\"center1\"],[12],[1,\"\\n\"],[8,[39,0],null,null,[[\"default\"],[[[],[]]]]],[1,\"\\n\"],[13]],[],false,[\"deletef\"]]",
     "moduleName": "foodapp/templates/fooddelete.hbs",
     "isStrictMode": false
   });
@@ -2048,54 +2176,28 @@
     <h3>
       FOODS
     </h3>
-    <table>
-    <ul class="people">
+  <div class="center1" style="text-align: center">
+  
       {{#each @model as |food|}}
-      <li class="person">   
-       <span class="title">NAME :{{food.name}}</span>
-       <span class="title">PRICE :{{food.price}}</span>
-       <Addcart @name={{food.id}}/>
-      </li>
+   
+      Name :{{food.name}}
+      Price :{{food.price}}
+      <span id="content1"><Addcart @name={{food.id}}/>  </span>
+      
       {{/each}}
-      </ul>  
+  </div>
+  <div id="bottom">
        <LinkTo @route="cartlist">VIEW CART
                   </LinkTo>
-      </table>
-  <div class="bottom_link">
-    
-   
      <LinkTo @route="logout">LOG OUT 
                   </LinkTo>
    </div>
   </div >
   */
   {
-    "id": "ltZYypmH",
-    "block": "[[[10,0],[14,0,\"box\"],[12],[1,\"\\n  \"],[10,\"h3\"],[12],[1,\"\\n    FOODS\\n  \"],[13],[1,\"\\n  \"],[10,\"table\"],[12],[1,\"\\n  \"],[10,\"ul\"],[14,0,\"people\"],[12],[1,\"\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\"    \"],[10,\"li\"],[14,0,\"person\"],[12],[1,\"   \\n     \"],[10,1],[14,0,\"title\"],[12],[1,\"NAME :\"],[1,[30,2,[\"name\"]]],[13],[1,\"\\n     \"],[10,1],[14,0,\"title\"],[12],[1,\"PRICE :\"],[1,[30,2,[\"price\"]]],[13],[1,\"\\n     \"],[8,[39,2],null,[[\"@name\"],[[30,2,[\"id\"]]]],null],[1,\"\\n    \"],[13],[1,\"\\n\"]],[2]],null],[1,\"    \"],[13],[1,\"  \\n     \"],[8,[39,3],null,[[\"@route\"],[\"cartlist\"]],[[\"default\"],[[[[1,\"VIEW CART\\n                \"]],[]]]]],[1,\"\\n    \"],[13],[1,\"\\n\"],[10,0],[14,0,\"bottom_link\"],[12],[1,\"\\n  \\n \\n   \"],[8,[39,3],null,[[\"@route\"],[\"logout\"]],[[\"default\"],[[[[1,\"LOG OUT \\n                \"]],[]]]]],[1,\"\\n \"],[13],[1,\"\\n\"],[13]],[\"@model\",\"food\"],false,[\"each\",\"-track-array\",\"addcart\",\"link-to\"]]",
+    "id": "gwLURC1h",
+    "block": "[[[10,0],[14,0,\"box\"],[12],[1,\"\\n  \"],[10,\"h3\"],[12],[1,\"\\n    FOODS\\n  \"],[13],[1,\"\\n\"],[10,0],[14,0,\"center1\"],[14,5,\"text-align: center\"],[12],[1,\"\\n\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\" \\n    Name :\"],[1,[30,2,[\"name\"]]],[1,\"\\n    Price :\"],[1,[30,2,[\"price\"]]],[1,\"\\n    \"],[10,1],[14,1,\"content1\"],[12],[8,[39,2],null,[[\"@name\"],[[30,2,[\"id\"]]]],null],[1,\"  \"],[13],[1,\"\\n    \\n\"]],[2]],null],[13],[1,\"\\n\"],[10,0],[14,1,\"bottom\"],[12],[1,\"\\n     \"],[8,[39,3],null,[[\"@route\"],[\"cartlist\"]],[[\"default\"],[[[[1,\"VIEW CART\\n                \"]],[]]]]],[1,\"\\n   \"],[8,[39,3],null,[[\"@route\"],[\"logout\"]],[[\"default\"],[[[[1,\"LOG OUT \\n                \"]],[]]]]],[1,\"\\n \"],[13],[1,\"\\n\"],[13]],[\"@model\",\"food\"],false,[\"each\",\"-track-array\",\"addcart\",\"link-to\"]]",
     "moduleName": "foodapp/templates/foodlist.hbs",
-    "isStrictMode": false
-  });
-
-  _exports.default = _default;
-});
-;define("foodapp/templates/foodupdate", ["exports", "@ember/template-factory"], function (_exports, _templateFactory) {
-  "use strict";
-
-  Object.defineProperty(_exports, "__esModule", {
-    value: true
-  });
-  _exports.default = void 0;
-  0; //eaimeta@70e063a35619d71f0,"ember-cli-htmlbars"eaimeta@70e063a35619d71f
-
-  var _default = (0, _templateFactory.createTemplateFactory)(
-  /*
-    {{page-title "Foodupdate"}}
-  {{outlet}}
-  */
-  {
-    "id": "ImGLITB8",
-    "block": "[[[1,[28,[35,0],[\"Foodupdate\"],null]],[1,\"\\n\"],[46,[28,[37,2],null,null],null,null,null]],[],false,[\"page-title\",\"component\",\"-outlet\"]]",
-    "moduleName": "foodapp/templates/foodupdate.hbs",
     "isStrictMode": false
   });
 
@@ -2191,13 +2293,13 @@
 
   var _default = (0, _templateFactory.createTemplateFactory)(
   /*
-    <div class="center">
+    <div class="center1">
   <Addr></Addr>
   </div>
   */
   {
-    "id": "vQTtO9nP",
-    "block": "[[[10,0],[14,0,\"center\"],[12],[1,\"\\n\"],[8,[39,0],null,null,[[\"default\"],[[[],[]]]]],[1,\"\\n\"],[13]],[],false,[\"addr\"]]",
+    "id": "DbCYxNaW",
+    "block": "[[[10,0],[14,0,\"center1\"],[12],[1,\"\\n\"],[8,[39,0],null,null,[[\"default\"],[[[],[]]]]],[1,\"\\n\"],[13]],[],false,[\"addr\"]]",
     "moduleName": "foodapp/templates/resadd.hbs",
     "isStrictMode": false
   });
@@ -2215,13 +2317,13 @@
 
   var _default = (0, _templateFactory.createTemplateFactory)(
   /*
-    <div class="center">
+    <div class="center1">
   <Deleter></Deleter>
   </div>
   */
   {
-    "id": "TULEPrY4",
-    "block": "[[[10,0],[14,0,\"center\"],[12],[1,\"\\n\"],[8,[39,0],null,null,[[\"default\"],[[[],[]]]]],[1,\"\\n\"],[13]],[],false,[\"deleter\"]]",
+    "id": "HtTv3Z77",
+    "block": "[[[10,0],[14,0,\"center1\"],[12],[1,\"\\n\"],[8,[39,0],null,null,[[\"default\"],[[[],[]]]]],[1,\"\\n\"],[13]],[],false,[\"deleter\"]]",
     "moduleName": "foodapp/templates/resdelete.hbs",
     "isStrictMode": false
   });
@@ -2250,6 +2352,29 @@
 
   _exports.default = _default;
 });
+;define("foodapp/templates/total", ["exports", "@ember/template-factory"], function (_exports, _templateFactory) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"ember-cli-htmlbars"eaimeta@70e063a35619d71f
+
+  var _default = (0, _templateFactory.createTemplateFactory)(
+  /*
+    {{page-title "Total"}}
+  {{outlet}}
+  */
+  {
+    "id": "A7l/RD10",
+    "block": "[[[1,[28,[35,0],[\"Total\"],null]],[1,\"\\n\"],[46,[28,[37,2],null,null],null,null,null]],[],false,[\"page-title\",\"component\",\"-outlet\"]]",
+    "moduleName": "foodapp/templates/total.hbs",
+    "isStrictMode": false
+  });
+
+  _exports.default = _default;
+});
 ;define("foodapp/templates/welcome", ["exports", "@ember/template-factory"], function (_exports, _templateFactory) {
   "use strict";
 
@@ -2265,34 +2390,26 @@
     <h3>
       RESTAURANTS
     </h3>
-    <table>
-    <ul class="people">
-      {{#each @model as |res|}}
-      <li class="person">
-        
-        <span class="title">RESTAURANT NAME :{{res.res_name}}</span>
-       <span class="title">TYPE:{{res.type}}</span>
-        
-      </li>
-  
-     <div class="bottom_link">
+  <div class="center1" style="text-align: center">
+      {{#each @model as |res|}}      
+       <span id="content1">Name :{{res.res_name}}</span> 
+        Type:{{res.type}}
         <LinkTo @route="foodlist"@model={{res.id}}>VIEW FOODS
                   </LinkTo>
-      </div>
+   <span id="content1"></span>
       {{/each}}
-    </ul>
-    </table>
-  
   </div>
-  <div class="bottom_link">
+  <div id="bottom">
    <LinkTo @route="logout">Log out
                   </LinkTo>
-              </div>
+  </div>
+    </div>
+  
   
   */
   {
-    "id": "aXrk+/xG",
-    "block": "[[[10,0],[14,0,\"box\"],[12],[1,\"\\n  \"],[10,\"h3\"],[12],[1,\"\\n    RESTAURANTS\\n  \"],[13],[1,\"\\n  \"],[10,\"table\"],[12],[1,\"\\n  \"],[10,\"ul\"],[14,0,\"people\"],[12],[1,\"\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\"    \"],[10,\"li\"],[14,0,\"person\"],[12],[1,\"\\n      \\n      \"],[10,1],[14,0,\"title\"],[12],[1,\"RESTAURANT NAME :\"],[1,[30,2,[\"res_name\"]]],[13],[1,\"\\n     \"],[10,1],[14,0,\"title\"],[12],[1,\"TYPE:\"],[1,[30,2,[\"type\"]]],[13],[1,\"\\n      \\n    \"],[13],[1,\"\\n\\n   \"],[10,0],[14,0,\"bottom_link\"],[12],[1,\"\\n      \"],[8,[39,2],null,[[\"@route\",\"@model\"],[\"foodlist\",[30,2,[\"id\"]]]],[[\"default\"],[[[[1,\"VIEW FOODS\\n                \"]],[]]]]],[1,\"\\n    \"],[13],[1,\"\\n\"]],[2]],null],[1,\"  \"],[13],[1,\"\\n  \"],[13],[1,\"\\n\\n\"],[13],[1,\"\\n\"],[10,0],[14,0,\"bottom_link\"],[12],[1,\"\\n \"],[8,[39,2],null,[[\"@route\"],[\"logout\"]],[[\"default\"],[[[[1,\"Log out\\n                \"]],[]]]]],[1,\"\\n            \"],[13],[1,\"\\n\"]],[\"@model\",\"res\"],false,[\"each\",\"-track-array\",\"link-to\"]]",
+    "id": "Dm9YMG4a",
+    "block": "[[[10,0],[14,0,\"box\"],[12],[1,\"\\n  \"],[10,\"h3\"],[12],[1,\"\\n    RESTAURANTS\\n  \"],[13],[1,\"\\n\"],[10,0],[14,0,\"center1\"],[14,5,\"text-align: center\"],[12],[1,\"\\n\"],[42,[28,[37,1],[[28,[37,1],[[30,1]],null]],null],null,[[[1,\"     \"],[10,1],[14,1,\"content1\"],[12],[1,\"Name :\"],[1,[30,2,[\"res_name\"]]],[13],[1,\" \\n      Type:\"],[1,[30,2,[\"type\"]]],[1,\"\\n      \"],[8,[39,2],null,[[\"@route\",\"@model\"],[\"foodlist\",[30,2,[\"id\"]]]],[[\"default\"],[[[[1,\"VIEW FOODS\\n                \"]],[]]]]],[1,\"\\n \"],[10,1],[14,1,\"content1\"],[12],[13],[1,\"\\n\"]],[2]],null],[13],[1,\"\\n\"],[10,0],[14,1,\"bottom\"],[12],[1,\"\\n \"],[8,[39,2],null,[[\"@route\"],[\"logout\"]],[[\"default\"],[[[[1,\"Log out\\n                \"]],[]]]]],[1,\"\\n\"],[13],[1,\"\\n  \"],[13],[1,\"\\n\\n\"]],[\"@model\",\"res\"],false,[\"each\",\"-track-array\",\"link-to\"]]",
     "moduleName": "foodapp/templates/welcome.hbs",
     "isStrictMode": false
   });

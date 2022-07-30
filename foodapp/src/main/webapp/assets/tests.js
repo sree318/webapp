@@ -688,6 +688,19 @@ define("foodapp/tests/test-helper", ["foodapp/app", "foodapp/config/environment"
   (0, _qunitDom.setup)(QUnit.assert);
   (0, _emberQunit.start)();
 });
+define("foodapp/tests/unit/routes/adfoodlist-test", ["qunit", "foodapp/tests/helpers"], function (_qunit, _helpers) {
+  "use strict";
+
+  0; //eaimeta@70e063a35619d71f0,"qunit",0,"foodapp/tests/helpers"eaimeta@70e063a35619d71f
+
+  (0, _qunit.module)('Unit | Route | adfoodlist', function (hooks) {
+    (0, _helpers.setupTest)(hooks);
+    (0, _qunit.test)('it exists', function (assert) {
+      let route = this.owner.lookup('route:adfoodlist');
+      assert.ok(route);
+    });
+  });
+});
 define("foodapp/tests/unit/routes/adm-foodlist-test", ["qunit", "foodapp/tests/helpers"], function (_qunit, _helpers) {
   "use strict";
 
@@ -853,6 +866,19 @@ define("foodapp/tests/unit/routes/signup-test", ["qunit", "foodapp/tests/helpers
     (0, _helpers.setupTest)(hooks);
     (0, _qunit.test)('it exists', function (assert) {
       let route = this.owner.lookup('route:signup');
+      assert.ok(route);
+    });
+  });
+});
+define("foodapp/tests/unit/routes/total-test", ["qunit", "foodapp/tests/helpers"], function (_qunit, _helpers) {
+  "use strict";
+
+  0; //eaimeta@70e063a35619d71f0,"qunit",0,"foodapp/tests/helpers"eaimeta@70e063a35619d71f
+
+  (0, _qunit.module)('Unit | Route | total', function (hooks) {
+    (0, _helpers.setupTest)(hooks);
+    (0, _qunit.test)('it exists', function (assert) {
+      let route = this.owner.lookup('route:total');
       assert.ok(route);
     });
   });
